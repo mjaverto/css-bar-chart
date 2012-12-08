@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bargraph {
+	list-style: none;
+	padding-top: 20px;
+	width:560px;
+	}
+	
+ul.bargraph li {
+	height: 35px;
+	color: white;
+	text-align: left;
+	font-style: italic;
+	font-weight:bolder;	
+	font-size: 14px;
+	line-height: 35px;
+	padding: 0px 20px;
+	margin-bottom: 5px;
+	}
+	
+	ul.bargraph li.reddeep {
+	background: #ED1C24;
+	width:100%;
+	}
+
+	ul.bargraph li.redpink {
+	background: #EF465B;
+	width:95%;
+	}
+	
+	ul.bargraph li.pink {
+	background: #E55A6B;
+	width:93%;
+	}
+	
+	ul.bargraph li.orangered {
+	background: #E28159;
+	width:85%;
+	}
+
+	ul.bargraph li.orange {
+	background: #F99C1C;
+	width:75%;
+	}
+	
+	ul.bargraph li.yellow {
+	background: #F4D41E;
+	width:74%;
+	}	
+	
+	ul.bargraph li.green {
+	background: #97B546;
+	width:55%;
+	}
+
+	ul.bargraph li.greenbright {
+	background: #36B669;
+	width:40%;
+	}
+	
+	ul.bargraph li.greenblue {
+	background: #42BDA5;
+	width:30%;
+	}
+	
+	ul.bargraph li.blue {
+	background: #00AEEF;
+	width:20%;
+	}
+
+	ul.bargraph li.xaxis {
+	background: url(../images/x-axis.jpg);
+	height: 49px;
+	}
+		
